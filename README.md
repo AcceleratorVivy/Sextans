@@ -6,6 +6,11 @@ Sextans is an accelerator for general-purpose Sparse-Matrix Dense-Matrix Multipl
 + Xilinx Vitis 2020.2
 + Alveo U280 HBM FPGA
 + Alveo U250 FPGA
++ Vivado HLS 2019.1 with the F37X development board (see `f37x/`)
+
+The `f37x/` directory now bundles everything required for that target: the
+Vivado HLS kernel sources live under `f37x/src/` while the accompanying host
+utilities (matrix processing, XRT integration, etc.) are in `f37x/host/`.
 
 To learn more about the techinqual details, please see [this link](https://arxiv.org/abs/2109.11081).
 
